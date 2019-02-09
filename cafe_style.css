@@ -1,0 +1,140 @@
+*,body,html{
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color: rgb(221, 235, 235);
+}
+#nav {
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+    background-color: #4615a1;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: -8px;
+    box-shadow: 0 2px 3px 0 grey;
+}
+#nav ul{
+	width:100%;
+}
+#nav ul li{
+	text-align: center;
+	margin-right: 20%;
+	
+	display: inline-block;
+	
+}
+#nav ul li a{
+	color:white;
+	text-decoration:none;
+	
+    margin: 0;
+    transition: 0.5s ease;
+
+}
+#nav ul li a:hover{
+	color: rgba(207,82,82,1.00);
+}
+#image {
+	opacity: 0.5;
+	position:sticky;
+    margin: 0;
+	padding: 0;
+    height: 620px;
+    width: 100%;
+	z-index: -1;
+}
+#centered {
+    text-align: center;
+    font-size: 60px;
+	font-weight: 100;
+    color: rgba(3,135,183,1.00);
+    margin: -500px 0 360px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px rgba(255,116,116,1.00);
+}
+#about {
+	margin-left: 20px;
+	margin-bottom: 60px;
+    font-size: 30px;
+	color: rgba(38,38,38,1.00);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px white;
+}
+#description {
+	color: rgba(235,235,235,1.00);
+	cursor:pointer;
+	margin-left: 20px;
+   
+  
+    padding: 10px 20px 10px 0 ;
+	padding-bottom: 50px;
+    margin-bottom: 10px;
+	width: 200px;
+    height: 80px;
+	transition: 0.6s ease;
+    background: rgba(30,196,119,1.00);
+   
+}
+#description p{
+	font-size:25px;
+	padding: 15px;
+	margin-bottom: 0;
+}
+#description p+h1{
+	font-size: 35px;
+	
+}
+#description:hover{
+	background-color:rgba(47,139,9,1.00);
+	color: white;
+}
+
+
+#text{
+	
+	position:relative;
+	
+   
+    margin-top: 3px;
+    padding: 5px;
+    border-left: 7px solid gold;
+    text-align: center;
+	margin:0 30px 0 50px;
+    
+}
+
+#description:hover #text{
+	color: aliceblue;
+}
+
+div.cofe{
+	align-items: center;
+	width:100%;
+	margin:80px 0;
+	align-content: center;
+
+}
+
+div.cofe img{
+	
+	position:relative;
+	left:35%;
+	width:100%;
+	max-width:400px; 
+    height:320px ;
+    
+    border-radius: 50%;
+}
+footer {
+	position: relative;
+	top:100%;
+    text-align: center;
+    background-color: darkmagenta;
+    color: lightgreen;
+   
+    padding: 10px;
+}
